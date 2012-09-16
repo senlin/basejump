@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.5
+	- reduced size of header image file (images/basejump.jpg)
+	- some stylesheet changes
+	- added wpml-config.xml file to root of theme and therewith the Basejump theme has been accepted into the WPML
+	  Go Global program with the verdict that "the Basejump theme is perfectly compatible with WPML".
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.4
+	- added the Dutch language file to the languages directory (languages/basejump-nl_NL.mo)
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.3
+	- adjusted the enqueue scripts function to be more general
+	- added languages directory with basejump.pot and basejump.po files
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.2
+	- discovered that Version 0.2.0 made footer widgets not responsive, so corrected that
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.1
+	- renamed functions to be more consequent throughout the theme
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.2.0
+	- Changed something in comments structure for Pages
+	- Changed styling top navigation menu
+	- Changed default footer-widgets coding a little bit around
+	- Changed location of <?php wp_footer(); ?>
+	- Changed styling various native WP elements
+	- Changed post header in loop (general and category)
+	- Deleted empty duplicate of Edit link
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.1.1
+	- Added intro text to readme.md
+	- Added screenshot.png
+
+------------------------------------------------------------------------------------------------------------------
+Version 0.1.0
+	- Basejump WordPress theme ready for use
