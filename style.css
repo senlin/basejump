@@ -4,7 +4,7 @@ Theme URI: http://wpbaseju.mp
 Description: A base WordPress theme to build future projects on, be it as a child theme of the Basejump WordPress theme or as a standalone theme.
 Author: Piet Bos 
 Author URI: http://senlinonline.com 
-Version: 0.2.5
+Version: 0.2.5.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, three-columns, fixed-width, custom-background, threaded-comments, translation-ready, custom-menu, responsive
@@ -127,11 +127,16 @@ text-decoration: none; }
 
 .menu-primary li ul ul { margin: -36px 0 0 159px; }
 
-.menu-primary li:hover ul ul, .menu-primary li.sfHover ul ul { left: -9999px; }
+.menu-primary li:hover ul ul, .menu-primary li.sfhover ul ul,
+.menu-primary li:hover ul ul ul, .menu-primary li.sfhover ul ul ul,
+.menu-primary li:hover ul ul ul ul, .menu-primary li.sfhover ul ul ul ul { left:-999em; }
 
 .menu-primary li:hover, .menu-primary li.sfHover { position: static; }
 
-.menu-primary ul.menu li:hover>ul, .menu-primary ul.menu li.sfHover ul, .menu-primary li:hover>ul, .menu-primary li.sfHover ul { left: auto; }
+.menu-primary li:hover ul, .menu-primary li.sfhover ul,
+.menu-primary li li:hover ul, .menu-primary li li.sfhover ul,
+.menu-primary li li li:hover ul, .menu-primary li li li.sfhover ul,
+.menu-primary li li li li:hover ul, .menu-primary li li li li.sfhover ul  { left:auto; }
 
 .menu-primary li a.sf-with-ul { padding-right: 25px; }
 
