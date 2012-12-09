@@ -1,4 +1,7 @@
 ------------------------------------------------------------------------------------------------------------------
+Version 0.2.5.1
+	- additional menu styling to prevent flickering of the menu while page is loading
+------------------------------------------------------------------------------------------------------------------
 Version 0.2.5
 	- reduced size of header image file (images/basejump.jpg)
 	- some stylesheet changes
