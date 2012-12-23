@@ -577,7 +577,7 @@ img#wpstats { display: none; }
 /* Responsive Design 
 ------------------------------------------------------------ */
 
-@media only screen and (max-width: 1020px) and (min-width: 601px) {
+@media only screen and (max-width: 1020px) and (min-width: 621px) {
 
  body { width: 100%; margin: 0 auto; }
  
@@ -631,9 +631,17 @@ img#wpstats { display: none; }
  
 }
 
-@media only screen and (max-width: 600px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) and (min-width: 621px) {
+	
+	.content-sidebar #content, .sidebar-content #content, .content-sidebar #sidebar, .sidebar-content #sidebar { width: 100%; }
+	.sidebar .textwidget img { display: block; margin: 15px auto 0; }
+	#footer-widgets .widget-1, #footer-widgets .widget-2, #footer-widgets .widget-3, #footer-widgets .widget-4 { margin: 0; padding: 20px 5px 15px; width: 100%; }
 
-  .archive-page, .content-sidebar #content, .content-sidebar-alt #content, #footer-widgets .widget-1, #footer-widgets .widget-2, #footer-widgets .widget-3, #footer-widgets .widget-4, .full-width-content #content, .sidebar, .sidebar-content #content, .alt-content-sidebar #content, .alt-sidebar-content #content, #content-sidebar-wrap, #footer .creds, #footer .gototop, #footer-widgets .wrap, #header .widget-area, #sidebar-alt, #title-area, #wrap, .alt-content-sidebar, .alt-sidebar-content, .content-sidebar-alt, .alt-content-sidebar #content, .alt-sidebar-content #content, .content-sidebar-alt #content, .alt-content-sidebar #sidebar, .alt-sidebar-content #sidebar, .content-sidebar-alt #sidebar, #sidebar-alt, .content-sidebar #sidebar, .content-sidebar #sidebar, .sidebar-content #sidebar { width: 100%; }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 481px) {
+
+  #nav > ul > li, .archive-page, .content-sidebar #content, .content-sidebar-alt #content, #footer-widgets .widget-1, #footer-widgets .widget-2, #footer-widgets .widget-3, #footer-widgets .widget-4, .full-width-content #content, .sidebar, .sidebar-content #content, .alt-content-sidebar #content, .alt-sidebar-content #content, #content-sidebar-wrap, #footer .creds, #footer .gototop, #footer-widgets .wrap, #header .widget-area, #sidebar-alt, #title-area, #wrap, .alt-content-sidebar, .alt-sidebar-content, .content-sidebar-alt, .alt-content-sidebar #content, .alt-sidebar-content #content, .content-sidebar-alt #content, .alt-content-sidebar #sidebar, .alt-sidebar-content #sidebar, .content-sidebar-alt #sidebar, #sidebar-alt, .content-sidebar #sidebar, .content-sidebar #sidebar, .sidebar-content #sidebar { width: 100%; }
 
  .menu-primary li, .menu-primary li ul, .menu-primary li ul a, .menu-secondary li, .menu-secondary li ul, .menu-secondary li ul a, #header .menu li, #header
 .menu li ul, #header .menu li ul a { width: 100%; }
